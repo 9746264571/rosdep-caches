@@ -1,0 +1,52 @@
+[roslaunch][INFO] 2020-02-04 20:17:14,356: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2020-02-04 20:17:14,385: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2020-02-04 20:17:14,388: roslaunch starting with args ['/opt/ros/melodic/bin/roslaunch', 'tut1.launch']
+[roslaunch][INFO] 2020-02-04 20:17:14,389: roslaunch env is {'ROS_DISTRO': 'melodic', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=1252de88c692cd0716ae6bd95e397b35', 'QT4_IM_MODULE': 'xim', 'PKG_CONFIG_PATH': '/home/ram/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'WINDOWPATH': '2', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_SESSION_TYPE': 'x11', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ram/catkin_ws/devel/share/common-lisp', 'QT_IM_MODULE': 'ibus', 'LOGNAME': 'ram', 'USER': 'ram', 'ROS_PACKAGE_PATH': '/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan:/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan_dispatch_msgs:/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan_knowledge_msgs:/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan_dependencies:/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan_knowledge_base:/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan_planning_system:/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan_rqt:/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan_sensing_interface:/home/ram/catkin_ws/src/sample:/opt/ros/melodic/share', 'XDG_VTNR': '2', 'HOME': '/home/ram', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'CMAKE_PREFIX_PATH': '/home/ram/catkin_ws/devel:/opt/ros/melodic', 'DISPLAY': ':0', 'SSH_AGENT_PID': '1873', 'LANG': 'en_IN', 'MANAGERPID': '1686', 'SHELL': '/bin/bash', 'ROS_LOG_FILENAME': '/home/ram/.ros/log/3b49c552-475d-11ea-a19e-08002728b100/roslaunch-ram-VirtualBox-12370.log', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'JOURNAL_STREAM': '9:28571', 'SESSION_MANAGER': 'local/ram-VirtualBox:@/tmp/.ICE-unix/1735,unix/ram-VirtualBox:/tmp/.ICE-unix/1735', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QT_ACCESSIBILITY': '1', 'LD_LIBRARY_PATH': '/home/ram/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'CLUTTER_IM_MODULE': 'xim', 'TEXTDOMAIN': 'im-config', 'XMODIFIERS': '@im=ibus', 'ROS_MASTER_URI': 'http://localhost:11311', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_PYTHON_VERSION': '2', 'INVOCATION_ID': '122a8ba4402547b592b6f282ed7aba7b', 'USERNAME': 'ram', 'XDG_SESSION_DESKTOP': 'ubuntu', 'ROS_VERSION': '1', 'PYTHONPATH': '/home/ram/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'TERM': 'xterm-256color', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'GDMSESSION': 'ubuntu', 'IM_CONFIG_PHASE': '2', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_BUS_TYPE': 'session', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'XDG_SESSION_ID': '2', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=1252de88c692cd0716ae6bd95e397b35', '_': '/opt/ros/melodic/bin/roslaunch', 'GNOME_TERMINAL_SERVICE': ':1.72', 'GTK_IM_MODULE': 'ibus', 'DESKTOP_SESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_MODULES': 'gail:atk-bridge', 'VTE_VERSION': '5202', 'XDG_SEAT': 'seat0', 'OLDPWD': '/home/ram/catkin_ws/src/ROSPlan', 'LANGUAGE': 'en_IN:en', 'SHLVL': '1', 'PWD': '/home/ram/catkin_ws/src/ROSPlan/launch', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'COLORTERM': 'truecolor', 'XDG_MENU_PREFIX': 'gnome-', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/df4c5761_7f6b_427a_91bc_6d437b682bf9'}
+[roslaunch][INFO] 2020-02-04 20:17:14,390: starting in server mode
+[roslaunch.parent][INFO] 2020-02-04 20:17:14,394: starting roslaunch parent run
+[roslaunch][INFO] 2020-02-04 20:17:14,394: loading roscore config file /opt/ros/melodic/etc/ros/roscore.xml
+[roslaunch][INFO] 2020-02-04 20:17:15,032: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2020-02-04 20:17:15,032: loading config file tut1.launch
+[roslaunch][ERROR] 2020-02-04 20:17:15,061: RLException: Invalid <arg> tag: rosplan_demos
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan
+ROS path [2]=/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan_dispatch_msgs
+ROS path [3]=/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan_knowledge_msgs
+ROS path [4]=/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan_dependencies
+ROS path [5]=/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan_knowledge_base
+ROS path [6]=/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan_planning_system
+ROS path [7]=/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan_rqt
+ROS path [8]=/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan_sensing_interface
+ROS path [9]=/home/ram/catkin_ws/src/sample
+ROS path [10]=/opt/ros/melodic/share. 
+
+Arg xml is <arg default="$(find rosplan_demos)/common/domain_turtlebot.pddl" name="domain_path"/>
+[roslaunch][ERROR] 2020-02-04 20:17:15,062: The traceback for the exception was written to the log file
+[roslaunch][ERROR] 2020-02-04 20:17:15,087: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/__init__.py", line 322, in main
+    p.start()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/parent.py", line 277, in start
+    self._start_infrastructure()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/parent.py", line 226, in _start_infrastructure
+    self._load_config()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/parent.py", line 138, in _load_config
+    roslaunch_strs=self.roslaunch_strs, verbose=self.verbose)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/config.py", line 459, in load_config_default
+    raise RLException(e)
+RLException: Invalid <arg> tag: rosplan_demos
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan
+ROS path [2]=/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan_dispatch_msgs
+ROS path [3]=/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan_knowledge_msgs
+ROS path [4]=/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan_dependencies
+ROS path [5]=/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan_knowledge_base
+ROS path [6]=/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan_planning_system
+ROS path [7]=/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan_rqt
+ROS path [8]=/home/ram/catkin_ws/src/ROSPlan/src/rosplan/rosplan_sensing_interface
+ROS path [9]=/home/ram/catkin_ws/src/sample
+ROS path [10]=/opt/ros/melodic/share. 
+
+Arg xml is <arg default="$(find rosplan_demos)/common/domain_turtlebot.pddl" name="domain_path"/>
+
+[rospy.core][INFO] 2020-02-04 20:17:15,091: signal_shutdown [atexit]
